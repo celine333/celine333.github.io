@@ -1,0 +1,89 @@
+body {
+    background-image: url("../Aufgabe2510/images/bg.png");
+    background-color: white;
+    font-family: "arial", "helvetica", "sans-serif";
+    font-size: medium;
+    margin: 0px 260px 0px 260px;
+    width: 800px;
+}
+
+nav {
+    background-color: black; width: 250px; height: 20px; 
+    text-align: center; margin-top: 0px; 
+    color: white;
+    position: fixed;    
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right; 
+    margin: 0px 260px 0px 260px;
+}
+
+a:hover { 
+    background-color: gray; color: white 
+}
+
+a:active {
+    background-color: red;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background-color: firebrick;
+    /* transform: translate(-50%, -50%); */
+}
+
+h1 {
+    color: firebrick;
+}
+
+h3 {
+    color: firebrick;
+}
+
+.InputValue {
+    background-color: grey;
+    color: white;
+    border: 0px;
+}
+
+.ContactInfo {
+    background-color: grey;
+    color: white;
+    width: 260px;
+    height: 30px;
+}
+
+.Nachricht {
+    background-color: grey;
+    color: white;
+    width: 400px;
+    height: 50px;
+}
+
+.Text {
+    color: grey;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    width: 80px;
+    height: 30px;
+}

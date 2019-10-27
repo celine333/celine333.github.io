@@ -1,0 +1,21 @@
+section {
+    width: 800px;
+    margin: 170px
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    right: 
+}
+
+a{
+    color: black
+}
+
+a:hover {
+    background: white;
+
+}
+
+<div style="width: 60%; margin: 0 auto; text-align:left; margin-bottom: 10px;">
