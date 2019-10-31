@@ -3,7 +3,11 @@ body {
     background-color: white;
     font-family: "arial", "helvetica", "sans-serif";
     font-size: medium;
-    margin: 0px 260px 0px 260px;
+}
+
+.Center {
+    margin-right: auto;
+    margin-left: auto;
     width: 800px;
 }
 
@@ -58,23 +62,28 @@ h3 {
 }
 
 .InputValue {
-    background-color: grey;
-    color: white;
+    background-color: lightgray;
+    color: grey;
     border: 0px;
 }
 
 .ContactInfo {
-    background-color: grey;
+    background-color: lightgray;
     color: white;
     width: 260px;
     height: 30px;
 }
 
 .Nachricht {
-    background-color: grey;
-    color: white;
+    background-color: lightgray;
+    color: grey;
     width: 400px;
     height: 50px;
+}
+
+
+::placeholder {
+    color: white
 }
 
 .Text {
@@ -83,7 +92,7 @@ h3 {
 
 button {
     color: white;
-    background-color: grey;
+    background-color: lightgray;
     width: 80px;
     height: 30px;
 }
