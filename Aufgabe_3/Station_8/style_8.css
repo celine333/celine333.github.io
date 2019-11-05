@@ -1,0 +1,22 @@
+body {
+    background-image: url("../Station_8/bg.png");
+}
+
+.Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Video {
+    position: absolute;
+    left: 8%;
+    top: 11%;
+}
+
+.Schleife {
+    position: absolute;
+    left: 62%;
+    top: 68%;
+}

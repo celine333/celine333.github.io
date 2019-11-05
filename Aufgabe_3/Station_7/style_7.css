@@ -1,0 +1,64 @@
+body {
+    background-image: url("../Station_7/images/bg.png");
+}
+
+.Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Überschrift {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+.Text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+
+.Pflanze {
+    position: absolute;
+    top: -15%;
+    left: -10%;
+}
+
+.Geschenke {
+    position: absolute; 
+    top: 67%;
+    left: 20%;
+}
+
+.Baum {
+    position: absolute;
+    top: 17%;
+    left: 49%;
+}
+
+.Stern1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.Stern2 {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.Stern3 {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+}

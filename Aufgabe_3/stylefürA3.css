@@ -1,0 +1,100 @@
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: lavender;
+}
+
+.Button1 {
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.Station1 {
+    position: absolute;
+    top: 52%;
+    left: 21%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Button2 {
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+.Station3 {
+    position: absolute;
+    top: 52%;
+    left: 34%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Button3 {
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+}
+
+.Station5 {
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Button4 {
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 61%;
+}
+
+.Station7 {
+    position: absolute;
+    top: 52%;
+    left: 62%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Button5 {
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 74%;
+}
+
+.Station8 {
+    position: absolute;
+    top: 52%;
+    left: 75%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

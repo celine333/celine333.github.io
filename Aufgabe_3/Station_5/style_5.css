@@ -1,0 +1,78 @@
+body {
+    background-image: url("../Station_5/bg.png");
+}
+
+.Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Überschrift {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    left: 10%;
+    top: 20%;
+    position: absolute;
+}
+
+.Name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    left: 10%;
+    top: 35%;
+    position: absolute;
+}
+
+.Nachricht {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    left: 10%;
+    top: 50%;
+    position: absolute;
+}
+
+.Geschenk {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    left: 10%;
+    top: 70%;
+    position: absolute;
+}
+
+.Feld1 {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+.Feld2 {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+}
+
+.Ja {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 75%;
+}
+
+.Nein {
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 75%;
+}
+
+.Button {
+    position: absolute;
+    left: 10%;
+    top: 85%;
+}
