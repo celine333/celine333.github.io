@@ -1,0 +1,100 @@
+body {
+    background-image: url(../Aufgabe_4/forest.jpg);
+     
+ }
+
+/* Mobile Screen */
+@media screen and (max-width: 640px)
+{ 
+ 
+ .Container {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .Überschrift {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+ }
+
+.zurück {
+    background-color: cadetblue;
+    position: absolute;
+    left: 44%;
+    top: 47%;
+}
+
+.Text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    left: 40%;
+    top: 48%;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+.gif {
+    position: absolute;
+    left: 33%;
+    top: 60%;
+}
+
+}
+
+/* Desktop Screen */
+@media screen and (min-width: 640px)
+{
+    .Container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+   
+    .Überschrift {
+       position: absolute;
+       left: 10%;
+       top: 30%;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 30px;
+       color: black;
+    }
+   
+   .zurück {
+       background-color: cadetblue;
+       position: absolute;
+       left: 44%;
+       top: 47%;
+   }
+   
+   .Text {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       color: black;
+       left: 40%;
+       top: 48%;
+       text-decoration: none;
+   }
+   
+   a:hover {
+       text-decoration: none;
+       
+   }
+   
+   .gif {
+       position: absolute;
+       left: 33%;
+       top: 60%;
+   }
+}   

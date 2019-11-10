@@ -1,0 +1,120 @@
+body {
+    background-image: url("../Aufgabe_4/forest.jpg");
+    
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 640px)
+{ 
+
+.Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Überschrift {
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.Text {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.Start {
+    position: absolute;
+    top: 225px;
+    left: 280px;
+    background-color: cadetblue;
+    text-decoration: none;
+}
+
+.Text2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+ 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.Smartphone {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+}
+
+/* Desktop Screen */
+@media screen and (min-width: 640px)
+{
+    .Container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .Überschrift {
+        position: absolute;
+        left: 120px;
+        top: 100px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .Text {
+        position: absolute;
+        left: 150px;
+        top: 150px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .Start {
+        position: absolute;
+        top: 225px;
+        left: 280px;
+        background-color: cadetblue;
+        text-decoration: none;
+    }
+    
+    .Text2 {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+     
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .Smartphone {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+    }
+}

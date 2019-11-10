@@ -1,0 +1,305 @@
+body {
+    background-image: url(../Aufgabe_4/forest.jpg);
+     
+ }
+
+/* Mobile Screen */
+@media screen and (max-width: 640px)
+{ 
+   .Container {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+   }
+
+   .Überschrift {
+    position: absolute;
+    left: 260px;
+    top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+   }
+
+   .Fragegrafik {
+    position: absolute;
+    left: 5px;
+    top: 180px;
+   }
+
+   .Frage {
+    position: absolute;
+    left: 160px;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+   }
+
+   .Telefon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+   }
+
+   .Chance {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+   }
+
+   .Antwort1 {
+      position: absolute;
+     left: 0px;
+     top: 320px; 
+     width: 350px;
+     height: 50px;
+     background: url(../Aufgabe_4/answer.png);
+      background-size: 350px 50px;
+     background-repeat: no-repeat;
+    }
+
+
+   .Antwort1:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);
+     
+   }
+
+   .Text1 {
+      position: absolute;
+      left: 70px;
+      top: 15px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+   }
+ 
+    .Antwort2 {
+    position: absolute;
+    left: 0px;
+    top: 380px; 
+    width: 350px;
+    height: 50px;
+    background: url(../Aufgabe_4/answer.png);
+     background-size: 350px 50px;
+    background-repeat: no-repeat;
+   }
+
+   .Antwort2:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);
+   }
+ 
+    .Text2 {
+     position: absolute;
+     left: 70px;
+     top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+ 
+    .Antwort3 {
+      position: absolute;
+      left: 290px;
+      top: 320px; 
+      width: 350px;
+      height: 50px;
+      background: url(../Aufgabe_4/answer.png);
+       background-size: 350px 50px;
+      background-repeat: no-repeat;
+    }
+
+   .Antwort3:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);
+   }
+ 
+    .Text3 {
+     position: absolute;
+     left: 70px;
+     top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+ 
+    .Antwort4 {
+      position: absolute;
+      left: 290px;
+      top: 380px; 
+      width: 350px;
+      height: 50px;
+      background: url(../Aufgabe_4/answer.png);
+       background-size: 350px 50px;
+      background-repeat: no-repeat;
+    }
+   
+   .Antwort4:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);   
+   }
+ 
+    .Text4 {
+     position: absolute;
+     left: 70px;
+     top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+}
+
+
+
+/* Desktop Screen */
+@media screen and (min-width: 640px)
+{
+   .Container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+ 
+    .Überschrift {
+     position: absolute;
+     left: 260px;
+     top: 80px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 35px;
+     color: white;
+    }
+ 
+    .Fragegrafik {
+     position: absolute;
+     left: 5px;
+     top: 180px;
+    }
+ 
+    .Frage {
+     position: absolute;
+     left: 160px;
+     top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     color: white;
+    }
+
+    .Frage2 {
+      position: absolute;
+      left: 100px;
+      top: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: white;
+    }
+
+    .Telefon {
+     position: absolute;
+     left: 20px;
+     top: 20px;
+    }
+ 
+    .Chance {
+     position: absolute;
+     left: 20px;
+     top: 80px;
+    }
+ 
+    .Antwort1 {
+      position: absolute;
+     left: 0px;
+     top: 320px; 
+     width: 350px;
+     height: 50px;
+     background: url(../Aufgabe_4/answer.png);
+      background-size: 350px 50px;
+     background-repeat: no-repeat;
+    }
+
+
+   .Antwort1:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);
+     
+   }
+
+   .Text1 {
+      position: absolute;
+      left: 70px;
+      top: 15px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+   }
+ 
+    .Antwort2 {
+    position: absolute;
+    left: 0px;
+    top: 380px; 
+    width: 350px;
+    height: 50px;
+    background: url(../Aufgabe_4/answer.png);
+     background-size: 350px 50px;
+    background-repeat: no-repeat;
+   }
+
+   .Antwort2:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);
+   }
+ 
+    .Text2 {
+     position: absolute;
+     left: 70px;
+     top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+ 
+    .Antwort3 {
+      position: absolute;
+      left: 290px;
+      top: 320px; 
+      width: 350px;
+      height: 50px;
+      background: url(../Aufgabe_4/answer.png);
+       background-size: 350px 50px;
+      background-repeat: no-repeat;
+    }
+
+   .Antwort3:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);
+   }
+ 
+    .Text3 {
+     position: absolute;
+     left: 70px;
+     top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+ 
+    .Antwort4 {
+      position: absolute;
+      left: 290px;
+      top: 380px; 
+      width: 350px;
+      height: 50px;
+      background: url(../Aufgabe_4/answer.png);
+       background-size: 350px 50px;
+      background-repeat: no-repeat;
+    }
+   
+   .Antwort4:hover {
+      background-image: url(../Aufgabe_4/answer_over.png);   
+   }
+ 
+    .Text4 {
+     position: absolute;
+     left: 70px;
+     top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+}
