@@ -1,18 +1,18 @@
-var Europa2008 = 4965.7;
-var Nordamerika2008 = 6600.4;
-var Südamerika2008 = 1132.6;
-var Afrika2008 = 1028;
-var Asien2008 = 12954.7;
-var Australien2008 = 1993;
+var Europa2008: number = 4965.7;
+var Nordamerika2008: number = 6600.4;
+var Südamerika2008: number = 1132.6;
+var Afrika2008: number = 1028;
+var Asien2008: number = 12954.7;
+var Australien2008: number = 1993;
 
-var Europa2018 = 4209.3;
-var Nordamerika2018 = 6035.6;
-var Südamerika2018 = 1261.5;
-var Afrika2018 = 1235.5;
-var Asien2018 = 16274.1;
-var Australien2018 = 2100.5;
+var Europa2018: number = 4209.3;
+var Nordamerika2018: number = 6035.6;
+var Südamerika2018: number = 1261.5;
+var Afrika2018: number = 1235.5;
+var Asien2018: number  = 16274.1;
+var Australien2018: number = 2100.5;
 
-var Total2018 = (Europa2018 + Nordamerika2018 + Südamerika2018 + Afrika2018 + Asien2018 + Australien2018);
+var Total2018: number = (Europa2018 + Nordamerika2018 + Südamerika2018 + Afrika2018 + Asien2018 + Australien2018);
 
 console.log("Die Emission von Europa 2018 ist: " + Europa2018 + " kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit " + (Europa2018 * 100) / Total2018 + "%");
