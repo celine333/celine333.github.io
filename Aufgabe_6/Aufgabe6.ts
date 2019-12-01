@@ -14,6 +14,13 @@ var Nordamerika2018: number = 6035.6;
 
 var Total2018: number = (Europa2018 + Nordamerika2018 + Südamerika2018 + Afrika2018 + Asien2018 + Australien2018);
 
+var OpEurope: number = 100 - 14;
+var OpNorthamerica: number = 100 - 19;
+var OpSouthamerica: number = 100 - 4;
+var OpAfrica: number = 100 - 4;
+var OpAsia: number = 100 - 52;
+var OpAustralia: number = 100 - 7;
+
 window.onload = function () {
     document.getElementById("EU").addEventListener("click", myFunctionEuropa);
     document.getElementById("NA").addEventListener("click", myFunctionNordamerika);
@@ -30,7 +37,7 @@ function myFunctionEuropa() {
     document.getElementById("Wert2").innerHTML = Math.round((Europa2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Europa2018 - Europa2008) / Europa2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Europa2018 - Europa2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity:96%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity:" + OpEurope + "%");
 };
 function myFunctionNordamerika() {
     document.getElementById("Überschrift").innerHTML = "Carbon Dioxide Emissions in Northamerica";
@@ -39,7 +46,7 @@ function myFunctionNordamerika() {
     document.getElementById("Wert2").innerHTML = Math.round((Nordamerika2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Nordamerika2018 - Nordamerika2008) / Nordamerika2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Nordamerika2018 - Nordamerika2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity: 91%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity:" + OpNorthamerica + "%");
 };
 function myFunctionSüdamerika() {
     document.getElementById("Überschrift").innerHTML = "Carbon Dioxide Emissions in Southamerica";
@@ -48,7 +55,7 @@ function myFunctionSüdamerika() {
     document.getElementById("Wert2").innerHTML = Math.round((Südamerika2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Südamerika2018 - Südamerika2008) / Südamerika2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Südamerika2018 - Südamerika2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity: 96%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity:" + OpSouthamerica + "%");
 };
 function myFunctionAfrika() {
     document.getElementById("Überschrift").innerHTML = "Carbon Dioxide Emissions in Africa";
@@ -57,7 +64,7 @@ function myFunctionAfrika() {
     document.getElementById("Wert2").innerHTML = Math.round((Afrika2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Afrika2018 - Afrika2008) / Afrika2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Afrika2018 - Afrika2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity: 96%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity:" + OpAfrica + "%");
 };
 function myFunctionAsien() {
     document.getElementById("Überschrift").innerHTML = "Carbon Dioxide Emissions in Asia";
@@ -66,7 +73,7 @@ function myFunctionAsien() {
     document.getElementById("Wert2").innerHTML = Math.round((Asien2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Asien2018 - Asien2008) / Asien2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Asien2018 - Asien2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity:48%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity:" + OpAsia + "%");
 };
 function myFunctionAustralien() {
     document.getElementById("Überschrift").innerHTML = "Carbon Dioxide Emissions in Australia";
@@ -75,7 +82,7 @@ function myFunctionAustralien() {
     document.getElementById("Wert2").innerHTML = Math.round((Australien2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Australien2018 - Australien2008) / Australien2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Australien2018 - Australien2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity:93%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity:" + OpAustralia + "%");
 };
 
 
