@@ -36,7 +36,7 @@ function myFunctionNordamerika() {
     document.getElementById("Wert2").innerHTML = Math.round((Nordamerika2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Nordamerika2018 - Nordamerika2008) / Nordamerika2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Nordamerika2018 - Nordamerika2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity:91%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity: 91%");
 }
 ;
 function myFunctionSüdamerika() {
@@ -46,7 +46,7 @@ function myFunctionSüdamerika() {
     document.getElementById("Wert2").innerHTML = Math.round((Südamerika2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Südamerika2018 - Südamerika2008) / Südamerika2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Südamerika2018 - Südamerika2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity:96%");
+    document.querySelector(".Wolke").setAttribute("style", "opacity: 96%");
 }
 ;
 function myFunctionAfrika() {
@@ -56,7 +56,7 @@ function myFunctionAfrika() {
     document.getElementById("Wert2").innerHTML = Math.round((Afrika2018 * 100) / Total2018) + " %";
     document.getElementById("Wert3").innerHTML = Math.round((Afrika2018 - Afrika2008) / Afrika2008 * 100) + " %";
     document.getElementById("Wert4").innerHTML = Math.round(Afrika2018 - Afrika2008) + "kg CO2";
-    document.querySelector(".Wolke").setAttribute("style", "opacity:96");
+    document.querySelector(".Wolke").setAttribute("style", "opacity: 96%");
 }
 ;
 function myFunctionAsien() {
