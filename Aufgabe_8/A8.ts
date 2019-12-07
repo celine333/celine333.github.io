@@ -45,7 +45,7 @@ function PlayBeat(): void {
     function myBeat () {
         playSample(Beat [index]);
         index += 1;
-        if (index > 3) index = 0;
+        if (index > (Beat.length - 1)) index = 0;
         console.log(Beat [index] );
     }
 }
